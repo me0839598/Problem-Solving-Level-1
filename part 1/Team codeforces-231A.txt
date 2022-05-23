@@ -1,0 +1,21 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// MAS Programming 
+	int a;
+	int b;
+	int c;
+	int r = 0;
+	int n;
+	cin >> n;
+	for (int i = 0; i < n; i++){
+		cin >> a;
+	    cin >> b;
+		cin >> c;
+		if (a + b + c == 2 || a + b + c == 3) { r++; }
+	}
+	cout << r ;
+ 
+	return 0;
+}
